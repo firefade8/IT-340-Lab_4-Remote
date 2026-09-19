@@ -1,6 +1,6 @@
 #!/bin/bash
 # Log the data and memory
 
-echo "Memory Log - $(date)" >> system_log.txt
-free -h | grep Mem >> system_log.txt
-echo "-------------------------" >> system_log.txt
+echo "SYSTEM REPORT (Memory) - $(date)" >> /home/firefade/Desktop/Lab_4/system_log.txt
+free -h | grep Mem >> /home/firefade/Desktop/Lab_4/system_log.txt
+echo "-------------------------" >> /home/firefade/Desktop/Lab_4/system_log.txt
